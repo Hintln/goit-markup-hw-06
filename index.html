@@ -68,23 +68,74 @@
             </button>
 
             <p class="modal-text">Оставьте свои данные, мы вам перезвоним</p>
-            <form autocomplete="off"></form>
-            <div class="modal-field">
-                <label class="form-field" for="name">Имя</label>
-            </div>
-            <div class="modal-field">
-                <label class="form-field" for="phone">Телефон</label>
-            </div>
-            <div class="modal-field">
-                <label class="form-field" for="mail">Почта</label>
-            </div>
-            <div class="modal-field">
-                <label for="comment">Коментарий</label>
-                <textarea name="comment" id="comment" class="form-comment" placeholder="Введите текст"></textarea>
-            </div>
+            <form autocomplete="off">
+                <div class="form-area">
+                    <label class="form-label" for="name">Имя</label>
+                    <span class="form-container">
+                        <input 
+                        type="text" 
+                        name="name" 
+                        class="form-input" 
+                        id="name">
+                        <svg width="18" height="18" class="form-icon">
+                            <use href="./images/icons.svg#icon-person-black-18dp-1-1"></use>
+                        </svg>
+                    </span>
+                </div>
 
+                 <div class="form-area">
+                    <label class="form-label" for="phone-number">Телефон</label>
+                    <span class="form-container">
+                        <input type="tel" 
+                        name="phone-number" 
+                        class="form-input" 
+                        id="phine-number">
+                        <svg width="18" height="18" class="form-icon">
+                            <use href="./images/icons.svg#icon-phone-black-18dp-1-1""></use>
+                        </svg>
+                    </span>
+                    </div>
 
-          </div>
+                <div class="form-are">
+                    <label class="form-area" for="email">Почта</label>
+                    <span class="form-container">
+                        <input 
+                        type="email" 
+                        name="email" 
+                        class="form-input" 
+                        id="email">
+                        <svg width="18" height="18" class="form-icon">
+                            <use href="./images/icons.svg#icon-email-black-18dp-1-1"></use>
+                        </svg>
+                    </span>
+                </div>
+
+                <div class="form-are">
+                    <label class="form-area" for="comment">Коментарий</label>
+                    <textarea 
+                    name="comment" 
+                    id="comment" 
+                    class="form-comment" 
+                    placeholder="Введите текст">
+                    </textarea>
+                    </div>
+
+                    <div>
+                        <label class="checkbox-label">
+                        <input 
+                        type="checkbox" 
+                        name="checkbox" 
+                        class="visual-hidden" 
+                        >
+                        <svg width="11" height="8" class="checkbox-icon">
+                            <use href="./images/icons.svg#icon-Vector-1-1"></use>
+                        </svg>
+                        Соглашаюсь с рассылкой и принимаю
+                        <a href="#" class="checkbox-link">Условия договора </a>
+                        </label>
+                        <button type="submit" class="button"> Отправить</button>
+                </div>
+         </form>
         </div>      
         </div>
         </section>

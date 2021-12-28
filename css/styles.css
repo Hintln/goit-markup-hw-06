@@ -413,15 +413,7 @@ border: none;
     margin: 0 0 12px 0;
 }
 
-.form-field{
-    display: flex;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 1.16;
-    letter-spacing: 0.01em;
-    display: flex;
-    color: var(--primary-text-color);
-}
+
 
 
 
