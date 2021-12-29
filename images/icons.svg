@@ -96,4 +96,7 @@
 </symbol>
 <symbol id="icon-Vector-2-1" viewBox="0 0 32 32"><path fill="#fff" style="fill:var(--color1, #fff);stroke:var(--color1, #fff)" stroke="#fff" stroke-width=".492" d="m4.817 15.39-.17-.162-.17.16-2.373 2.25.187.18 8.775 8.369.17-.162L29.894 8.226l-.187-.177-2.341-2.233-.17.162-16.13 15.375-6.25-5.962z"/>
 </symbol>
+<symbol id="icon-Vector-3-1" viewBox="0 0 32 32"><path d="M32 3.223 28.777 0 16 12.777 3.223 0 0 3.223 12.777 16 0 28.777 3.223 32 16 19.223 28.777 32 32 28.777 19.223 16 32 3.223z"/>
+</symbol>
+
 </svg>
