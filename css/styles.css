@@ -496,7 +496,7 @@ border: none;
     align-items: center ;
     color: var(--main-text-color);
     font-weight: 400;
-    font-size: 14;
+    font-size: 14px;
     line-height: 1.71;
     margin-bottom: 30px;
     margin-top: 20px;
